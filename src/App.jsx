@@ -99,7 +99,7 @@ function App() {
           <h2 className="font-bold mt-5 text-xl">Add a Todo</h2>
           <div>
 
-          <input onChange={handleChange} value={todo} type="text" className="rounded-full w-3/4 md:w-4/5 my-2 px-2 py-1" />
+          <input onChange={handleChange} onKeyDown={(e) => e.key === "Enter" && handleAdd()} value={todo} type="text" className="rounded-full w-3/4 md:w-4/5 my-2 px-2 py-1" />
           <button onClick={handleAdd} disabled={todo.length<3} className=" bg-purple-800 hover:bg-purple-950 text-sm
            px-4 py-2 hover:cursor-pointer disabled:bg-gray-700 text-white rounded-full font-bold mx-2 md:mx-3">Save</button>
           </div>
