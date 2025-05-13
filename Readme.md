@@ -57,6 +57,12 @@ npm run dev
 - On app load (`useEffect`), it fetches todos from `localStorage`.
 - Any changes to the todos array are synced to `localStorage` for persistence.
 
+## Video Demo
+
+Watch a video demo of the working Twitter(X) UI clone:<br>
+
+[https://drive.google.com/file/d/1Ww-5umm3Tje7SLsSliQ8IlxNyPEfujq-/view?usp=sharing](https://drive.google.com/file/d/1qONh5z7CW-adVMqzIoj2TdjvUvxdnAAQ/view?usp=sharing)
+
 ## 📌 Upcoming Improvements
 
 - Add due dates and categories
